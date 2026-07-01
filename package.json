@@ -13,7 +13,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapgoCapacitorCapacitorUwb.podspec"
+    "CapgoCapacitorUwb.podspec"
   ],
   "author": "Martin Donadieu <martin@capgo.app>",
   "license": "MPL-2.0",
@@ -35,7 +35,7 @@
   "scripts": {
     "verify": "bun run verify:ios && bun run verify:android && bun run verify:web",
     "verify:ios": "xcodebuild -scheme CapgoCapacitorCapacitorUwb -destination generic/platform=iOS",
-    "verify:android": "cd android && ./gradlew clean build test && cd ..",
+    "verify:ios": "xcodebuild -scheme CapgoCapacitorUwb -destination generic/platform=iOS",
     "verify:web": "bun run build",
     "lint": "bun run eslint && bun run prettier -- --check && bun run swiftlint -- lint",
     "fmt": "bun run eslint -- --fix && bun run prettier -- --write && bun run swiftlint -- --fix --format",

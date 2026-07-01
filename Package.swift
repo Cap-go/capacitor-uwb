@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapgoCapacitorCapacitorUwb",
+    name: "CapgoCapacitorUwb",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "CapgoCapacitorCapacitorUwb",
+            name: "CapgoCapacitorUwb",
             targets: ["CapacitorUwbPlugin"])
     ],
     dependencies: [
