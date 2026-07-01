@@ -24,15 +24,18 @@ export class CapacitorUwbWeb extends WebPlugin implements CapacitorUwbPlugin {
     throw this.unavailable('UWB ranging is not available on web.');
   }
 
-  async startPeerSession(_options: StartPeerSessionOptions): Promise<void> {
+  async startPeerSession(options: StartPeerSessionOptions): Promise<void> {
+    void options;
     throw this.unavailable('UWB ranging is not available on web.');
   }
 
-  async startControllerSession(_options?: StartControllerSessionOptions): Promise<AndroidControllerSessionResult> {
+  async startControllerSession(options?: StartControllerSessionOptions): Promise<AndroidControllerSessionResult> {
+    void options;
     throw this.unavailable('UWB ranging is not available on web.');
   }
 
-  async startControleeSession(_options: StartControleeSessionOptions): Promise<void> {
+  async startControleeSession(options: StartControleeSessionOptions): Promise<void> {
+    void options;
     throw this.unavailable('UWB ranging is not available on web.');
   }
 
