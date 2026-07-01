@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@capgo/capacitor-uwb Example</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>@capgo/capacitor-uwb</h1>
+      <p class="lead">Validate UWB availability and session APIs.</p>
+
+      <div class="actions">
+        <button id="check-available">Check availability</button>
+        <button id="get-token">Get discovery token (iOS)</button>
+        <button id="start-controller">Start controller session (Android)</button>
+        <button id="stop-session">Stop session</button>
+        <button id="get-version">Get plugin version</button>
+      </div>
+
+      <pre id="plugin-output">Press a button to run an action.</pre>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
