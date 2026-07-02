@@ -1,5 +1,5 @@
 <svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <title>Capgo GitHub social preview template</title>
+  <title>uwb GitHub social preview</title>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
       <stop stop-color="#060A13" />
@@ -49,7 +49,7 @@
     font-weight="700"
     letter-spacing="0"
   >
-    GitHub social preview - Cap-go/capacitor-uwb - edit copy, keep npm install text
+    GitHub social preview - Cap-go/capacitor-uwb - @capgo/capacitor-uwb
   </text>
 
   <g clip-path="url(#headlineClip)">
@@ -62,7 +62,7 @@
       font-weight="850"
       letter-spacing="0"
     >
-      Add plugin features in one line
+      Add UWB ranging in one line
     </text>
     <text
       x="80"
@@ -73,7 +73,7 @@
       font-weight="850"
       letter-spacing="0"
     >
-      without native friction
+      for Capacitor apps
     </text>
   </g>
 
@@ -87,7 +87,7 @@
     font-weight="600"
     letter-spacing="0"
   >
-    Capacitor plugin template for fast, production-ready native integrations.
+    Capacitor plugin for Ultra-Wideband ranging on iOS and Android.
   </text>
 
   <g filter="url(#shadow)">

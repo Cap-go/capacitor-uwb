@@ -224,8 +224,6 @@ export interface StartControllerSessionOptions {
   uwbConfigType?: number;
 
   /**
-   * UWB config identifier.
-  /**
    * Slot duration in milliseconds.
    *
    * @since 8.0.0
