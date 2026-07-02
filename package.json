@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-uwb",
-  "version": "8.0.1",
+  "version": "8.0.2",
   "description": "Capacitor plugin for Ultra-Wideband (UWB) ranging on iOS and Android.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
