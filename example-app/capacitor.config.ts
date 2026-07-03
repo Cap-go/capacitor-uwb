@@ -4,7 +4,7 @@ import pkg from './package.json';
 
 const config: CapacitorConfig = {
   appId: 'app.capgo.uwb.example',
-  appName: 'Plugin Template Example',
+  appName: '@capgo/capacitor-uwb',
   webDir: 'dist',
   plugins: {
     CapacitorUpdater: {
