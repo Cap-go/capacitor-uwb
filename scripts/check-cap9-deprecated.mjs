@@ -173,6 +173,14 @@ function collectScanRoots(pluginDir, pkg) {
   return roots;
 }
 
+function lineForScan(line) {
+  let s = line.replace(/\/\/.*$/, "");
+  s = s.replace(/\/\*.*?\*\//g, "");
+  s = s.replace(/"(?:\\.|[^"\\])*"/g, '""');
+  s = s.replace(/'(?:\\.|[^'\\])*'/g, "''");
+  return s;
+}
+
 function scanFile(filePath, rule) {
   const ext = path.extname(filePath);
   if (!rule.exts.includes(ext)) return [];
@@ -186,7 +194,7 @@ function scanFile(filePath, rule) {
       continue;
     }
     if (rule.ignoreLine?.test(line)) continue;
-    if (rule.pattern.test(line)) {
+    if (rule.pattern.test(lineForScan(line))) {
       hits.push({ line: i + 1, text: line.trim() });
     }
   }
@@ -215,7 +223,7 @@ if (!cap.android && !cap.ios) {
   process.exit(0);
 }
 
-const scanRoots = collectScanRoots(pluginDir, cap);
+const scanRoots = collectScanRoots(pluginDir, pkg);
 const allExts = [...new Set(RULES.flatMap((r) => r.exts))];
 const files = [];
 for (const root of scanRoots) {
