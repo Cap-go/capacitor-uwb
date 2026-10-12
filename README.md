@@ -2,7 +2,7 @@
 
 Measure distance and direction between nearby devices with Ultra-Wideband in your Capacitor app, for precise finding, unlocking and proximity experiences.
 
-<a href="https://capgo.app/?ref=plugin_uwb"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-uwb" alt="Capgo - Instant updates for Capacitor" /></a>
+<a href="https://capgo.app/?ref=plugin_uwb"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-uwb" alt="Capgo - Build Capacitor apps with AI, ship updates instantly" /></a>
 
 <div align="center">
   <p><b>Capgo</b>: push fixes to your Capacitor users in minutes, build signed iOS and Android apps without a Mac, and roll back in one click.</p>
@@ -10,6 +10,8 @@ Measure distance and direction between nearby devices with Ultra-Wideband in you
   <p>14-day unlimited free trial. No credit card required</p>
   <p><a href="https://capgo.app/consulting/?ref=plugin_uwb">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
+
+> 🤖 **Building with an AI coding agent?** Install [Capgo skills](https://capgo.app/skills/?ref=plugin_uwb) so Claude Code, Codex, Cursor, Copilot, or Gemini CLI know how to install and use `@capgo/capacitor-uwb` in your Capacitor app: `npx skills add Cap-go/capgo-skills`. Then ask your agent: *"Add @capgo/capacitor-uwb to my Capacitor app and wire it up."* [Agent setup guides](https://capgo.app/agents/?ref=plugin_uwb) · [Hosted MCP](https://capgo.app/docs/ai/mcp/?ref=plugin_uwb)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Cap-go/capacitor-uwb/main/assets/github-social-preview.png" alt="@capgo/capacitor-uwb for Capacitor apps" width="300" />
